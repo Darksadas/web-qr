@@ -51,7 +51,7 @@ router.get('/', async (req, res) => {
 				const sockses = await sock.sendMessage(sock.user.id, { document: sessionsock, mimetype: `application/json`, fileName: `creds.json` });
 				
                
-			await sock.sendMessage(sock.user.id, { text: `*THE ULITMATE CREDS.JSON GENERATOR*\n*you have used pairing method*\n> YOU HAVE SUCCESSFULLY COMPLETED YOUR FIRST STEP\n> NOW UPLOAD YOUR CREDS.JSON ON YOUR FORKED BOT GITHUB REPO\n____________________________________\n╔════◇\n║『 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍』\n\n║ ❒ 𝙺𝙰𝚅𝙸𝚂𝙷𝙰𝙽: _https://wa.me/94788017991_\n\n╚════════════════════❒\n╔═════◇\n║ 『••• OWNER INFO •••』\n║ ❒ 𝚔𝚊𝚟𝚒𝚜𝚑𝚊𝚗_𝙾𝙵𝙲: _https://wa.me/94789474773_\n> fork the following repo\n║ ❒ Repo: _https://github.com/kavishanofc/kavishan-md_\n╚════════════════════╝` }, {quoted: sockses});
+			await sock.sendMessage(sock.user.id, { text: `*This Creds.json file upload your repo ➤*\n*❡ Contact bot owner - 94778500326*\n*•ᴅᴀʀᴋ ꜱʜᴜᴛᴇʀ ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴅᴀʀᴋꜱᴀᴅᴀꜱ•*` }, {quoted: sockses});
         await delay(100);
         return await removeFile('./session');
         process.exit(0)
